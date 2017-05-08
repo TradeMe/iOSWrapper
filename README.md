@@ -1,7 +1,7 @@
 Trade Me API Wrapper
 ====================
 
-The Trade Me API Wrapper is an iOS wrapper around the online Trade Me API located at [http://developer.trademe.co.nz](http://developer.trademe.co.nz) 
+The Trade Me API Wrapper is an iOS wrapper around the online Trade Me API located at [http://developer.trademe.co.nz](http://developer.trademe.co.nz)
 
 This guide is intended to get you started with the API Wrapper in your own project.
 
@@ -9,7 +9,7 @@ We have also included a sample application that shows how to implement OAuth aut
 
 This guide consists of two parts:
 
-* Installing the API Wrapper 
+* Installing the API Wrapper
 * Running the Sample Application
 
 Installation
@@ -20,7 +20,7 @@ Installation
 
 > *NOTE*: While developing and testing your app it is advisable to use Trade Me's sandbox site located at [http://www.tmsandbox.co.nz](http://www.tmsandbox.co.nz)
 
-Point your browser at [http://www.trademe.co.nz](http://www.trademe.co.nz) 
+Point your browser at [http://www.trademe.co.nz](http://www.trademe.co.nz)
 
 Log in to your Trade Me account and navigate to your [My Trade Me page](http://www.trademe.co.nz/MyTradeMe/Default.aspx).
 
@@ -50,10 +50,10 @@ Trade Me has an internal approval process for all API consumers. Once your appli
 
 Prior to using the API Wrapper, both AFNetworking (v 1.1.0) and SSKeychain (v 0.1.4) need to be added to your project.
 
-AFNetworking can be downloaded from 
-[https://github.com/AFNetworking/AFNetworking/tree/1.1.0](https://github.com/AFNetworking/AFNetworking/tree/1.1.0). 
+AFNetworking can be downloaded from
+[https://github.com/AFNetworking/AFNetworking/tree/1.1.0](https://github.com/AFNetworking/AFNetworking/tree/1.1.0).
 
-The installation instructions can be found at 
+The installation instructions can be found at
 [https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking)
 
 SSKeychain and the installation instructions are available at [https://github.com/soffes/sskeychain/tree/0.1.4](https://github.com/soffes/sskeychain/tree/0.1.4)
@@ -115,22 +115,20 @@ Lastly, the *TMEAPI.h* file needs to be imported in the *TradeMeAPIClientSample-
 Contact
 -------
 
-For any questions regarding the API Wrapper, please visit our developer forums at [http://developer.trademe.co.nz/forum/](http://developer.trademe.co.nz/forum/)
+For any questions regarding the API, please visit our developer website at [http://developer.trademe.co.nz/](http://developer.trademe.co.nz/)
 
 or find us on Twitter at [https://twitter.com/TradeMe_Mobile](https://twitter.com/TradeMe_Mobile)
-
-and App.net at [https://app.net/trademe](https://app.net/trademe)
 
 License
 -------
 
 The MIT License (MIT)
 Copyright © 2013 Trade Me Ltd [http://www.trademe.co.nz](http://www.trademe.co.nz)
- 
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
- 
+
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- 
+
 You agree that this licence and your use of this Software is subject to the laws of New Zealand, that New Zealand law will apply to any dispute arising from your use of this Software, and you agree to the non-exclusive jurisdiction of the New Zealand courts to hear any such dispute.
- 
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
